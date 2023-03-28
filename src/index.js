@@ -1,1 +1,3 @@
-console.log('I am running and everything works just fine');
+import initializeContent from './initialPageLoad';
+
+initializeContent();
