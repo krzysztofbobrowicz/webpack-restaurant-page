@@ -8,9 +8,6 @@
 body {
   font-family: 'Playfair Display', sans-serif;
   box-sizing: border-box;
-}
-
-#content {
   background-image: url('./images/background-image.jpg');
   background-position: center;
   background-size: cover;
@@ -18,7 +15,10 @@ body {
   width: 100vw;
 }
 
-.navbar {
+#content {
+}
+
+#navbar {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -41,8 +41,8 @@ a {
   text-decoration: none;
 }
 
-.navbar,
-.navbar a {
+#navbar,
+#navbar a {
   color: white;
 }
 
@@ -67,7 +67,7 @@ a {
     font-size: 1.5rem;
   }
 
-  .navbar {
+  #navbar {
     font-size: 16px;
   }
 }
